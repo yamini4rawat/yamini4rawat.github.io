@@ -7,14 +7,11 @@ title: INTRODUCTION TO MACHINE LEARNING
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script> 
  
-
-# INTRODUCTION TO MACHINE LEARNING
-
-### What is machine learning ?
+## What is machine learning ?
 
 Coursera recently published a report stating that out of 45 million people enrolled in their platform, 2 million are enrolled in AI and machine learning based content. But what is machine learning? In the nut shell machine learning is just mathematics . While solving any problem through machine learning  we fit our inputs data to a suitable mathematical formula and predict applying the same mathematical formula to test data. The input data and the test data actually belong to the same statistical distribution. If they lie somewhat out of the statistical distribution they are called anomalies or outliers. 
 
-### Types of machine learning
+## Types of machine learning
 
 Guess what - there are types of machine learning too. A machine can learn in a supervised or unsupervised  or semi- supervised  or in a reinforced way.
 
@@ -26,19 +23,18 @@ For supervised machine learning the input data has labels i.e. the target variab
 
 
 
-#### Unsupervised Learning 
+### Unsupervised Learning 
 
 In unsupervised learning the output label is missing and the machine has to learn about the data without any output label. The unsupervised machine algorithms are given an input feature but not a targeted output variable. Through unsupervised learning you can do clustering and determine the anomalies and outliers in the data provided. You can also do dimensionality reduction. Examples of unsupervised learning are *K-means clustering algorithm, PCA(Principal Component Analysis), LDA(Latent Dirichlet Allocation).*
 
 
-
-#### Semi-supervised Learning 
+### Semi-supervised Learning 
 
 In a semi-supervised learning we have a combination of labeled and unlabeled data. In semi-supervised learning the data with labeled examples are few and the unlabeled examples are more. First, the algorithm clusters the unlabeled data in clusters and then with the help of labeled data determines the labels of the unlabeled data. The concept of semi-supervised algorithm is kind of same as Supervised but having unlabeled data introduces more robustness and more information and this in turn results in a better model. 
 
 
 
-#### Reinforcement Learning
+### Reinforcement Learning
 
 Reinforcement learning is the new popular kid in the town. In Reinforcement learning there is concept of a reward. Rather that making a model the machine tries to learn a policy. A policy is a function that takes the input as a feature vector and outputs an action. The application of the action will give a positive reward or a negative reward. Reinforcement learning is applied in problems where decision making is required in a sequential manner.
 
@@ -48,7 +44,7 @@ It is because of reinforcement learning the machines today have become capable o
 
 
 
-### Naïve Bayes
+## Naïve Bayes
 
 In this section we will talk in more detail regarding a supervised machine learning algorithm - *Naïve Bayes*. Naïve Bayes algorithm are based on Bayes' Theorem . Naïve Bayes Algorithm calculates the probability of a input belonging to a particular class considering only one feature at a time.
 
@@ -56,7 +52,7 @@ In this section we will talk in more detail regarding a supervised machine learn
 
 
 
-#### Mathematics 
+### Mathematics 
 
 Naïve Bayes is based on Bayes theorem. Bayes theorem mathematical is represented as follows:
 
@@ -108,13 +104,13 @@ accuracy of the dataset is: 0.9466666666666667
 
 
 
-### Conclusion
+## Conclusion
 
 Naïve Bayes has naïve assumptions and therefore sometimes do not work on complex problem nevertheless it still is one of the fastest and easiest algorithm to use. Due to these feature it sometimes outperform the complex and sophisticated algorithm available. Its is simple, easy to build and very useful when it come to textual classification. We also see that in numerical classification too it works amazing as we got a accuracy of 94% and miss classified just 4 data points.
 
 
 
-### References and Credits 
+## References and Credits 
 
 - [Sklearn documnetation](https://scikit-learn.org/stable/modules/naive_bayes.html)
 
