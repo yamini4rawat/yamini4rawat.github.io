@@ -1,8 +1,11 @@
 ---
 layout: page
 title: INTRODUCTION TO MACHINE LEARNING
-
 ---
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> 
+ 
 
 # INTRODUCTION TO MACHINE LEARNING
 
@@ -16,25 +19,25 @@ Guess what - there are types of machine learning too. A machine can learn in a s
 
 
 
-##### Supervised Learning
+#### Supervised Learning
 
 For supervised machine learning the input data has labels i.e. the target variable $y^i$ is mentioned. So in a supervised machine learning the model takes in the input data and tries to devise a output label for that particular data. Some examples of supervised learning algorithms are *Linear Regression, Logistic Regression, Navies Bayes, Support vector machines etc.*
 
 
 
-##### Unsupervised Learning 
+#### Unsupervised Learning 
 
 In unsupervised learning the output label is missing and the machine has to learn about the data without any output label. The unsupervised machine algorithms are given an input feature but not a targeted output variable. Through unsupervised learning you can do clustering and determine the anomalies and outliers in the data provided. You can also do dimensionality reduction. Examples of unsupervised learning are *K-means clustering algorithm, PCA(Principal Component Analysis), LDA(Latent Dirichlet Allocation).*
 
 
 
-##### Semi-supervised Learning 
+#### Semi-supervised Learning 
 
 In a semi-supervised learning we have a combination of labeled and unlabeled data. In semi-supervised learning the data with labeled examples are few and the unlabeled examples are more. First, the algorithm clusters the unlabeled data in clusters and then with the help of labeled data determines the labels of the unlabeled data. The concept of semi-supervised algorithm is kind of same as Supervised but having unlabeled data introduces more robustness and more information and this in turn results in a better model. 
 
 
 
-##### Reinforcement Learning
+#### Reinforcement Learning
 
 Reinforcement learning is the new popular kid in the town. In Reinforcement learning there is concept of a reward. Rather that making a model the machine tries to learn a policy. A policy is a function that takes the input as a feature vector and outputs an action. The application of the action will give a positive reward or a negative reward. Reinforcement learning is applied in problems where decision making is required in a sequential manner.
 
@@ -52,7 +55,7 @@ In this section we will talk in more detail regarding a supervised machine learn
 
 
 
-##### Mathematics 
+#### Mathematics 
 
 Naïve Bayes is based on Bayes theorem. Bayes theorem mathematical is represented as follows:
 
