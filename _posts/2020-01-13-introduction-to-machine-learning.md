@@ -61,14 +61,14 @@ In this section we will talk in more detail regarding a supervised machine learn
 Naïve Bayes is based on Bayes theorem. Bayes theorem mathematical is represented as follows:
 
 # $$P(A\mid B)={\frac {P(B\mid A)P(A)}{P(B)}}$$
-
+<br>
 $$P(A|B)$$ - This is a conditional probability. It is the probability of feature $$B$$ belonging to class $$A$$ or a class being identified as $$A$$ when $$B$$ is present. In probability terms its the likelihood of an event $$A$$ occurring when $$B$$ has already occurred. This is also known as posterior probability.
 
-$P(B|A)$ - This too is a conditional probability. Given a class $A$ what is the probability that $B$ is feature of class $A$. This also is a likelihood of event $B$ occurring given $A$ is true.
+* $$P(B|A)$$ - This too is a conditional probability. Given a class $$A$$ what is the probability that $$B$$ is feature of class $$A$$. This also is a likelihood of event $$B$$ occurring given $$A$$ is true.
 
-$P(A)$ - Probability of event $A$ occurring. This is prior probability of class $A$.
+* $$P(A)$$ - Probability of event $$A$$ occurring. This is prior probability of class $$A$$.
 
-$P(B)$ - Probability of event $B$ occurring. This is prior probability of feature $B​$.
+* $$P(B)$$ - Probability of event $$B$$ occurring. This is prior probability of feature $$B$$.
 
 
 
@@ -121,50 +121,4 @@ Naïve Bayes has naïve assumptions and therefore sometimes do not work on compl
 - [Wikipedia Bayes’ Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem),[Wikipedia Naïve Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 
 - [udacity intro to machine learning course](https://www.udacity.com/course/intro-to-machine-learning--ud120)
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
 
