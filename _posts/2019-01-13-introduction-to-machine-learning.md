@@ -1,6 +1,6 @@
 ---
 layout: page
-title:INTRODUCTION TO MACHINE LEARNING
+title: INTRODUCTION TO MACHINE LEARNING
 
 ---
 
