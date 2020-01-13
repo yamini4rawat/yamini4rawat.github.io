@@ -17,7 +17,7 @@ Guess what - there are types of machine learning too. A machine can learn in a s
 
 
 
-#### Supervised Learning
+### Supervised Learning
 
 For supervised machine learning the input data has labels i.e. the target variable $y^i$ is mentioned. So in a supervised machine learning the model takes in the input data and tries to devise a output label for that particular data. Some examples of supervised learning algorithms are *Linear Regression, Logistic Regression, Navies Bayes, Support vector machines etc.*
 
