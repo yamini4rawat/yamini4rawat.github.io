@@ -1,3 +1,12 @@
+---
+layout: page
+title: Maximal margin classifier, Support vector classifier and Support vector machine Part 1
+---
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> 
+
 # Maximal margin classifier, Support vector classifier and Support vector machine
 
 In this article we will explore the Support Vector Machine algorithm . This article will be divided into two parts. The first one we explore Support vector machine, Support vector classifier and maximal margin classifier. The second one will contain a code implementation of support vector machine for textual classification . 
