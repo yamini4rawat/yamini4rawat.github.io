@@ -8,7 +8,7 @@ title: A brief explanation of LSTM, GRU and Attention Mechanism
 </script> 
 
 
-
+# A brief explanation of LSTM, GRU and Attention Mechanism
 To Deal with Sequential problem we need algorithm that can deal with sequence vectors. RNN or recurrent neural networks were the algorithm which were given as an answer to this question. The RNN or recurrent neural network were networks which were passed a new input and the previously predicted output  to predict the next output . Although RNN performed really well in task involved with sequential data they were still not able to perform good in problem were the length of sequential data is long as it had no concept of saving the $$n-$$ $$k^t$$$$^h$$ memory . That is where LSTM comes as an answer with the concept of cell state which act like a memory.
 
 
@@ -17,7 +17,7 @@ To Deal with Sequential problem we need algorithm that can deal with sequence ve
 
 LSTM or Long short term memory has it building block in RNN but they are capable of retrieving the context of sequential data due to cell state. 
 
-![image-20201203171307440](C:\Users\yamini.rawat\AppData\Roaming\Typora\typora-user-images\image-20201203171307440.png)
+![image-20201203171307440](https://github.com/yamini4rawat/image/blob/master/LSTM_Final.PNG)
 
 
 
@@ -36,7 +36,7 @@ Cell state or the $$C$$$$_{t}$$ associates it self with the whole LSTM architect
 
 After the LSTM a number of algorithm based on LSTM came out . One of them was GRU which is quite popular as it combined the forget and addition gate to one update gate. It also updated the memory twice once with Reset gate and then with the hidden state . It results in a simpler model than LSTM.
 
-![image-20201203175118070](C:\Users\yamini.rawat\AppData\Roaming\Typora\typora-user-images\image-20201203175118070.png)
+![image-20201203175118070](https://github.com/yamini4rawat/image/blob/master/GRU.PNG)
 
 
 
@@ -50,7 +50,7 @@ In attention we will have input vector which coupled with feedback $$s$$ will pa
 
 Below diagram show attention mechanism.
 
-![image-20201203230207814](C:\Users\yamini.rawat\AppData\Roaming\Typora\typora-user-images\image-20201203230207814.png)
+![image-20201203230207814](https://github.com/yamini4rawat/image/blob/master/attention.PNG)
 
 In this let us assume we have input $$x_{1}$$ , $$x_{2}$$ , $$x_{3}$$ , $$x_{4}$$ which when given to encoder gives  $$h_{1}$$, $$h_{2}$$  $$h_{3}$$, $$h_{4}$$ .
 
