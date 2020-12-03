@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LSTM, GRU AND ATTENTION
+title: LSTM GRU AND ATTENTION
 ---
 
 <script type="text/javascript" async
