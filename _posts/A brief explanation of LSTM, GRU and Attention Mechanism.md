@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A brief explanation of LSTM, GRU and Attention Mechanism
+title: LSTM, GRU AND ATTENTION
 ---
 
 <script type="text/javascript" async
