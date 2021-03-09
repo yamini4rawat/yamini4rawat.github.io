@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Maximal margin classifier, Support vector classifier and Support vector machine Part 1
+title: Maximal margin classifier, Support vector classifier and Support vector machine 
 ---
 
 <script type="text/javascript" async
